@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.9bcd2450.css",
+    "main.js": "/Portfolio-Website/static/js/main.c9c2c6d3.js",
+    "static/js/787.7da95b79.chunk.js": "/Portfolio-Website/static/js/787.7da95b79.chunk.js",
+    "static/media/portfolio-1.png": "/Portfolio-Website/static/media/portfolio-1.226da8b9843f432ca945.png",
+    "static/media/portfolio-3.png": "/Portfolio-Website/static/media/portfolio-3.d28bcd2cd3a840141817.png",
+    "static/media/portfolio-5.png": "/Portfolio-Website/static/media/portfolio-5.c7323bc44f000ae73d0b.png",
+    "static/media/portfolio-2.png": "/Portfolio-Website/static/media/portfolio-2.1a01efd8d60b20eefbde.png",
+    "static/media/portfolio-7.png": "/Portfolio-Website/static/media/portfolio-7.1c475957b7303e64ccf9.png",
+    "static/media/portfolio-12.png": "/Portfolio-Website/static/media/portfolio-12.4655793bb1030a9f0e7b.png",
+    "static/media/portfolio-6.png": "/Portfolio-Website/static/media/portfolio-6.0645cf86841b4de34526.png",
+    "static/media/portfolio-4.png": "/Portfolio-Website/static/media/portfolio-4.7db83b137ce52cb31013.png",
+    "static/media/portfolio-8.png": "/Portfolio-Website/static/media/portfolio-8.c613bbf7478c7ee12233.png",
+    "static/media/portfolio-9.png": "/Portfolio-Website/static/media/portfolio-9.b92b44fb2ae6ba46df3c.png",
+    "static/media/portfolio-11.png": "/Portfolio-Website/static/media/portfolio-11.9201a4c3956e53420fb8.png",
+    "static/media/portfolio-10.png": "/Portfolio-Website/static/media/portfolio-10.2cdf0db1b7b933ad4f16.png",
+    "static/media/image-2bg.png": "/Portfolio-Website/static/media/image-2bg.a5363fd530b1a4eafcd2.png",
+    "static/media/Soumya Sanket Soni - Resume.pdf": "/Portfolio-Website/static/media/Soumya Sanket Soni - Resume.9febe67e99ef9500fb2e.pdf",
+    "static/media/logo-2.png": "/Portfolio-Website/static/media/logo-2.08229e741527312dca2a.png",
+    "static/media/code-design.png": "/Portfolio-Website/static/media/code-design.7da89742570fe79d2036.png",
+    "static/media/website-design-2.png": "/Portfolio-Website/static/media/website-design-2.4497f3faaf6e4117b294.png",
+    "static/media/graphic-design.png": "/Portfolio-Website/static/media/graphic-design.c4acd455fc2040eddcc8.png",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.9bcd2450.css.map": "/Portfolio-Website/static/css/main.9bcd2450.css.map",
+    "main.c9c2c6d3.js.map": "/Portfolio-Website/static/js/main.c9c2c6d3.js.map",
+    "787.7da95b79.chunk.js.map": "/Portfolio-Website/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bcd2450.css",
+    "static/js/main.c9c2c6d3.js"
+  ]
+}

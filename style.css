@@ -1,0 +1,22 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Lora', serif;
+}
+
+body
+{
+    background: linear-gradient(235deg, #226068, #283051, #226068);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar
+{
+    display: none;
+}
