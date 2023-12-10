@@ -1,0 +1,142 @@
+#skills
+{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.skillTitle
+{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillDescBox
+{
+    background: linear-gradient(235deg, #000000, #424f85, #000000);
+    border: 5px solid white;
+    border-radius: 2rem;
+    padding: 15px;
+    margin: 3px 6px;
+    text-align: center;
+}
+
+.skillDesc
+{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.skillBars
+{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillBar
+{
+    display: flex;
+    position: relative;
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(10, 10, 10);
+}
+
+.skillBar::before
+{
+    content: '';
+    display: flex;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+}
+
+.skillBar::after
+{
+    content: '';
+    display: flex;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.skillBar::before, .skillBar::after
+{
+    background: linear-gradient(235deg, #0080ff, #060c21, #03e2ff);
+}
+
+.skillBar:hover
+{
+    background: linear-gradient(235deg, #226068, #283051, #226068);
+}
+
+.skillBarImg
+{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 2rem;
+}
+
+.skillBarText
+{
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.skillBarText>p
+{
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 720px)
+{
+    .skillBarText
+    {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .skillBarText>p
+    {
+        font-size: 2.75vw;
+    }
+
+    .skillBarImg
+    {
+        height: 3rem;
+        width: 3rem;
+        margin-top: 5rem;
+        margin-left: -0.5rem;
+    }
+
+    .skillBarText>h2
+    {
+        font-size: 4vw;
+    }
+}
