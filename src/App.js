@@ -25,6 +25,7 @@ function App() {
               <Skills />
               <Works />
               <Contact />
+              <Footer />
             </>
           } />
           <Route path="/sportsseries/" element={<ImageDetailSport />} />
@@ -33,7 +34,6 @@ function App() {
           <Route path="/techsavvy/" element={<ImageDetailTechSavvy />} />
           <Route path="/internship/" element={<ImageDetailIntern />} />
         </Routes>
-        <Footer />
       </div>
     </Router>
   );
