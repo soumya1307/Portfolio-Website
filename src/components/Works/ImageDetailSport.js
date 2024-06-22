@@ -53,20 +53,25 @@ export default function ImageDetailSport() {
   };
 
   return (
-    <div className="imageDetailSportContainer">
-      <button className="backButton" onClick={() => navigate(-1)}>←</button>
-      <h2 className="imageDetailSportTitle">Sports Series - Poster Concept</h2>
-      <div className="imageDetailSportIntro">
-        <p>These are some of the Sports Poster Concept consisting of prominent athletes in their respective sports field. <br/> Designed for Sports Fans like me. I have always wanted a poster for my favourite sports person and have come up with these for other fans as well. Using Adobe Photoshop, the tools enabled me to customize the concept and present the athlete with the unique color scheme.</p>
+    <div className="pageContainer">
+      <div className="imageDetailSportContainer">
+        <button className="backButton" onClick={() => navigate(-1)}>←</button>
+        <h2 className="imageDetailSportTitle">Sports Series - Poster Concept</h2>
+        <div className="imageDetailSportIntro">
+          <p>These are some of the Sports Poster Concept consisting of prominent athletes in their respective sports field. <br /> Designed for Sports Fans like me. I have always wanted a poster for my favourite sports person and have come up with these for other fans as well. Using Adobe Photoshop, the tools enabled me to customize the concept and present the athlete with the unique color scheme.</p>
+        </div>
+        <Slider {...settings}>
+          {allPortfolioImages.map((image, index) => (
+            <div key={index} className="imageDetailSportItem">
+              <img src={image.src} alt={`Portfolio ${index + 1}`} className="imageDetailSportImg" />
+              <p className="imageDetailSportDesc">{image.description}</p>
+            </div>
+          ))}
+        </Slider>
       </div>
-      <Slider {...settings}>
-        {allPortfolioImages.map((image, index) => (
-          <div key={index} className="imageDetailSportItem">
-            <img src={image.src} alt={`Portfolio ${index + 1}`} className="imageDetailSportImg" />
-            <p className="imageDetailSportDesc">{image.description}</p>
-          </div>
-        ))}
-      </Slider>
+      <footer className="footer">
+        Copyright &#169; 2024 Soumya Soni. All Rights Reserved
+      </footer>
     </div>
   );
 }

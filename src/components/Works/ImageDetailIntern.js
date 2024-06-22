@@ -51,20 +51,25 @@ export default function ImageDetailIntern() {
   };
 
   return (
-    <div className="imageDetailInternContainer">
-      <button className="backButton" onClick={() => navigate(-1)}>←</button>
-      <h2 className="imageDetailInternTitle">UA Kathachitra Pvt. Ltd. - Internship</h2>
-      <div className="imageDetailInternIntro">
-        <p>UA Kathachitra is an independent film production & publishing company that makes story-driven short and independent films. <br/><br/> I was part of the Social Media Team, where in I had the role of designing the social media posts for various events. It all started with designing the background layout that could give a unique look to the event post. Using Canva, I utilized the graphical elements to create the designs accordingly. These are some of my work presented.</p>
+    <div className="pageContainer">
+      <div className="imageDetailInternContainer">
+        <button className="backButton" onClick={() => navigate(-1)}>←</button>
+        <h2 className="imageDetailInternTitle">UA Kathachitra Pvt. Ltd. - Internship</h2>
+        <div className="imageDetailInternIntro">
+          <p>UA Kathachitra is an independent film production & publishing company that makes story-driven short and independent films. <br /><br /> I was part of the Social Media Team, where in I had the role of designing the social media posts for various events. It all started with designing the background layout that could give a unique look to the event post. Using Canva, I utilized the graphical elements to create the designs accordingly. These are some of my work presented.</p>
+        </div>
+        <Slider {...settings}>
+          {allPortfolioImages.map((image, index) => (
+            <div key={index} className="imageDetailInternItem">
+              <img src={image.src} alt={`Portfolio ${index + 1}`} className="imageDetailInternImg" />
+              <p className="imageDetailInternDesc">{image.description}</p>
+            </div>
+          ))}
+        </Slider>
       </div>
-      <Slider {...settings}>
-        {allPortfolioImages.map((image, index) => (
-          <div key={index} className="imageDetailInternItem">
-            <img src={image.src} alt={`Portfolio ${index + 1}`} className="imageDetailInternImg" />
-            <p className="imageDetailInternDesc">{image.description}</p>
-          </div>
-        ))}
-      </Slider>
+      <footer className="footer">
+        Copyright &#169; 2024 Soumya Soni. All Rights Reserved
+      </footer>
     </div>
   );
 }

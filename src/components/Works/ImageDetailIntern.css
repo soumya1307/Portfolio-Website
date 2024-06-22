@@ -1,4 +1,5 @@
 .imageDetailInternContainer {
+  flex: 1;
   padding: 20px;
   text-align: center;
 }
@@ -62,13 +63,13 @@ button.backButton {
 /* Medium devices (tablets, 768px to 1023px) */
 @media (max-width: 1023px) {
   button.backButton {
-    font-size: 2rem;
+    font-size: 2.5rem;
     left: 20px;
     top: 10px;
   }
 
   .imageDetailInternTitle {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .imageDetailInternImg {
@@ -85,19 +86,19 @@ button.backButton {
 /* Small devices (landscape phones, 600px to 767px) */
 @media (max-width: 767px) {
   button.backButton {
-    font-size: 1.5rem;
+    font-size: 2rem;
     left: 15px;
     top: 10px;
   }
 
   .imageDetailInternTitle {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .imageDetailInternImg {
     margin-left: auto;
     margin-right: auto;
-    max-height: 250px;
+    max-height: 300px;
   }
 
   .imageDetailInternDesc {
@@ -108,7 +109,7 @@ button.backButton {
 /* Extra small devices (portrait phones, less than 600px) */
 @media (max-width: 599px) {
   button.backButton {
-    font-size: 1rem;
+    font-size: 1.5rem;
     left: 10px;
     top: 10px;
   }
@@ -126,11 +127,21 @@ button.backButton {
   .imageDetailInternImg {
     margin-left: auto;
     margin-right: auto;
-    max-height: 200px;
+    max-height: 300px;
   }
 
   .imageDetailInternDesc {
     font-size: 0.7rem;
     padding: 10px;
   }
+}
+
+/* Footer styles */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  position: relative;
 }

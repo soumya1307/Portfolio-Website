@@ -1,4 +1,5 @@
 .imageDetailSportContainer {
+  flex: 1;
   padding: 20px;
   text-align: center;
 }
@@ -97,7 +98,7 @@ button.backButton {
   .imageDetailSportImg {
     margin-left: auto;
     margin-right: auto;
-    max-height: 250px;
+    max-height: 300px;
   }
 
   .imageDetailSportDesc {
@@ -126,11 +127,21 @@ button.backButton {
   .imageDetailSportImg {
     margin-left: auto;
     margin-right: auto;
-    max-height: 200px;
+    max-height: 300px;
   }
 
   .imageDetailSportDesc {
     font-size: 0.7rem;
     padding: 10px;
   }
+}
+
+/* Footer styles */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  position: relative;
 }

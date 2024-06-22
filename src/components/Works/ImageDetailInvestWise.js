@@ -69,20 +69,25 @@ export default function ImageDetailInvestWise() {
   };
 
   return (
-    <div className="imageDetailInvestWiseContainer">
-      <button className="backButton" onClick={() => navigate(-1)}>←</button>
-      <h2 className="imageDetailInvestWiseTitle">InvestWise - Project</h2>
-      <div className="imageDetailInvestWiseIntro">
-        <p>InvestWise is an Equity Analysis Mobile Application, developed with a robust combination of Python for algorithms, Flutter for the user interface, and Firebase for database management, offers a comprehensive suite of features. It includes four distinct algorithms: daily, weekly, daily-weekly, and RSI, all designed to enhance your trading experience. The app maintains detailed transaction reports and an extensive portfolio for each user. Additionally, it features an M-CAP Fetcher and provides graphical representations of the algorithms for better visualization and understanding.</p>
+    <div className="pageContainer">
+      <div className="imageDetailInvestWiseContainer">
+        <button className="backButton" onClick={() => navigate(-1)}>←</button>
+        <h2 className="imageDetailInvestWiseTitle">InvestWise - Project</h2>
+        <div className="imageDetailInvestWiseIntro">
+          <p>InvestWise is an Equity Analysis Mobile Application, developed with a robust combination of Python for algorithms, Flutter for the user interface, and Firebase for database management, offers a comprehensive suite of features. It includes four distinct algorithms: daily, weekly, daily-weekly, and RSI, all designed to enhance your trading experience. The app maintains detailed transaction reports and an extensive portfolio for each user. Additionally, it features an M-CAP Fetcher and provides graphical representations of the algorithms for better visualization and understanding.</p>
+        </div>
+        <Slider {...settings}>
+          {allPortfolioImages.map((image, index) => (
+            <div key={index} className="imageDetailInvestWiseItem">
+              <img src={image.src} alt={`Portfolio ${index + 1}`} className="imageDetailInvestWiseImg" />
+              <p className="imageDetailInvestWiseDesc">{image.description}</p>
+            </div>
+          ))}
+        </Slider>
       </div>
-      <Slider {...settings}>
-        {allPortfolioImages.map((image, index) => (
-          <div key={index} className="imageDetailInvestWiseItem">
-            <img src={image.src} alt={`Portfolio ${index + 1}`} className="imageDetailInvestWiseImg" />
-            <p className="imageDetailInvestWiseDesc">{image.description}</p>
-          </div>
-        ))}
-      </Slider>
+      <footer className="footer">
+        Copyright &#169; 2024 Soumya Soni. All Rights Reserved
+      </footer>
     </div>
   );
 }

@@ -1,104 +1,127 @@
 .imageDetailTSContainer {
-    padding: 20px;
-    text-align: center;
-    position: relative;
-  }
-  
-  button.backButton {
-    cursor: pointer;
-    font-size: 3rem;
-  }
-  
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+button.backButton {
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+.imageDetailTSTitle {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.imageDetailTSIntro {
+  font-size: 1rem;
+  color: #ffffff;
+  background: linear-gradient(235deg, #000000, #424f85, #000000);
+  border: 5px solid white;
+  border-radius: 2rem;
+  padding: 15px;
+  margin: 3px 6px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.imageDetailTSImage {
+  text-align: center;
+}
+
+.imageDetailTSImg {
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.imageDetailTSDesc {
+  font-size: 1rem;
+  color: #ffffff;
+  background: linear-gradient(235deg, #000000, #424f85, #000000);
+  border: 5px solid white;
+  border-radius: 2rem;
+  padding: 15px;
+  margin: 3px 6px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Responsive Design */
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
   .imageDetailTSTitle {
     font-size: 3rem;
-    margin-bottom: 20px;
   }
-  
-  .imageDetailTSIntro {
+}
+
+/* Medium devices (tablets, 768px to 1023px) */
+@media (max-width: 1023px) {
+  button.backButton {
+    font-size: 2.5rem;
+    left: 20px;
+    top: 10px;
+  }
+
+  .imageDetailTSTitle {
+    font-size: 2.5rem;
+  }
+
+  .imageDetailTSDesc {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small devices (landscape phones, 600px to 767px) */
+@media (max-width: 767px) {
+  button.backButton {
+    font-size: 2rem;
+    left: 15px;
+    top: 10px;
+  }
+
+  .imageDetailTSTitle {
+    font-size: 2rem;
+  }
+
+  .imageDetailTSDesc {
+    font-size: 0.8rem;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 600px) */
+@media (max-width: 599px) {
+  button.backButton {
+    font-size: 1.5rem;
+    left: 10px;
+    top: 10px;
+  }
+
+  .imageDetailTSTitle {
     font-size: 1rem;
-    color: #ffffff;
-    background: linear-gradient(235deg, #000000, #424f85, #000000);
-    border: 5px solid white;
-    border-radius: 2rem;
-    padding: 15px;
-    margin: 3px 6px;
-    text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 15px;
   }
-  
-  .imageDetailTSImage {
-    text-align: center;
-    margin: 0 auto;
+
+  .imageDetailTSIntro {
+    font-size: 0.9rem;
+    padding: 10px;
   }
-  
-  .imageDetailTSImg {
-    width: 100%;
-    height: auto;
-    border: 2px solid #ddd;
-    border-radius: 4px;
+
+  .imageDetailTSDesc {
+    font-size: 0.7rem;
+    padding: 10px;
   }
-  
-  /* Responsive Design */
-  
-  /* Large devices (desktops, 1024px and up) */
-  @media (min-width: 1024px) {
-    .imageDetailTSTitle {
-      font-size: 3rem;
-    }
-  }
-  
-  /* Medium devices (tablets, 768px to 1023px) */
-  @media (max-width: 1023px) {
-    button.backButton {
-      font-size: 2rem;
-      left: 20px;
-      top: 10px;
-    }
-  
-    .imageDetailTSTitle {
-      font-size: 2rem;
-    }
-  
-    .imageDetailTSIntro {
-      font-size: 0.9rem;
-      padding: 10px;
-    }
-  }
-  
-  /* Small devices (landscape phones, 600px to 767px) */
-  @media (max-width: 767px) {
-    button.backButton {
-      font-size: 1.5rem;
-      left: 15px;
-      top: 10px;
-    }
-  
-    .imageDetailTSTitle {
-      font-size: 1.5rem;
-    }
-  
-    .imageDetailTSIntro {
-      font-size: 0.8rem;
-      padding: 10px;
-    }
-  }
-  
-  /* Extra small devices (portrait phones, less than 600px) */
-  @media (max-width: 599px) {
-    button.backButton {
-      font-size: 1rem;
-      left: 10px;
-      top: 10px;
-    }
-  
-    .imageDetailTSTitle {
-      font-size: 1rem;
-      margin-bottom: 15px;
-    }
-  
-    .imageDetailTSIntro {
-      font-size: 0.7rem;
-      padding: 10px;
-    }
-  }
-  
+}
+
+/* Footer styles */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
