@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Slider from 'react-slick'; // Import Slider from react-slick
+import Slider from 'react-slick';
 import './ImageDetailSport.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

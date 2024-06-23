@@ -38,7 +38,7 @@ button.backButton {
   margin-bottom: 10px;
 }
 
-.imageDetailTSDesc {
+.imageDetailULDesc {
   font-size: 1rem;
   color: #ffffff;
   background: linear-gradient(235deg, #000000, #424f85, #000000);
@@ -111,7 +111,7 @@ button.backButton {
     padding: 10px;
   }
 
-  .imageDetailTSDesc {
+  .imageDetailULDesc {
     font-size: 0.7rem;
     padding: 10px;
   }

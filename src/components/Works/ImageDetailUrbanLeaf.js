@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './ImageDetailUrbanLeaf.css';
-import Portfolio27 from '../../assets/portfolio-27.png'; // Import the image you want to display
+import Portfolio27 from '../../assets/portfolio-27.png';
 
 export default function ImageDetailUrbanLeaf() {
   const navigate = useNavigate();
