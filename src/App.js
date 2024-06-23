@@ -7,11 +7,12 @@ import Skills from './components/Skills/Skills';
 import Works from './components/Works/Works';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import ImageDetailSport from './components/Works/ImageDetailSport'; // Import the new component
-import ImageDetailInvestWise from './components/Works/ImageDetailInvestWise'; // Import the new component
-import ImageDetailUrbanLeaf from './components/Works/ImageDetailUrbanLeaf'; // Import the new component
-import ImageDetailTechSavvy from './components/Works/ImageDetailTechSavvy'; // Import the new component
-import ImageDetailIntern from './components/Works/ImageDetailIntern'; // Import the new component
+import ImageDetailSport from './components/Works/ImageDetailSport';
+import ImageDetailInvestWise from './components/Works/ImageDetailInvestWise'; 
+import ImageDetailUrbanLeaf from './components/Works/ImageDetailUrbanLeaf'; 
+import ImageDetailTechSavvy from './components/Works/ImageDetailTechSavvy'; 
+import ImageDetailIntern from './components/Works/ImageDetailIntern'; 
+import ImageDetailFitFusion from './components/Works/ImageDetailFitFusion';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/investwise/" element={<ImageDetailInvestWise />} />
           <Route path="/urbanleaf/" element={<ImageDetailUrbanLeaf />} />
           <Route path="/techsavvy/" element={<ImageDetailTechSavvy />} />
+          <Route path="/fitfusion/" element={<ImageDetailFitFusion />} />
           <Route path="/internship/" element={<ImageDetailIntern />} />
         </Routes>
       </div>

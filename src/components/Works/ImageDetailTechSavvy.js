@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './ImageDetailTechSavvy.css';
-import Portfolio45 from '../../assets/portfolio-45.png'; // Import the image you want to display
+import Portfolio45 from '../../assets/portfolio-45.png';
 
 export default function ImageDetailTechSavvy() {
     const navigate = useNavigate();

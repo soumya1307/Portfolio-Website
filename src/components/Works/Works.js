@@ -6,6 +6,7 @@ import Portfolio13 from '../../assets/portfolio-13.png';
 import Portfolio20 from '../../assets/portfolio-20.png';
 import Portfolio28 from '../../assets/portfolio-28.jpg';
 import Portfolio44 from '../../assets/portfolio-44.png';
+import Portfolio46 from '../../assets/portfolio-46.png';
 
 export default function Works() {
   const initialVisibleImages = 3;
@@ -21,6 +22,9 @@ export default function Works() {
   ];
   const allPortfolioImagesTS = [
     { src: Portfolio44, description: 'Tech Savvy - Company Branding', link: '/techsavvy' },
+  ];
+  const allPortfolioImagesFF = [
+    { src: Portfolio46, description: 'Fit Fusion - Company Branding', link: '/fitfusion' },
   ];
   const allPortfolioImagesIntern = [
     { src: Portfolio20, description: 'UA Kathachitra Pvt. Ltd. - Internship', link: '/internship' },
@@ -78,6 +82,16 @@ export default function Works() {
               </div>
             </div>
           ))}
+          {allPortfolioImagesFF.slice(0, visibleImages).map((image, index) => (
+            <div key={index}>
+              <Link to={image.link}>
+                <img src={image.src} alt={`Portfolio ${index + 1}`} className="worksImg" />
+              </Link>
+              <div className="worksImgDescBox">
+                <span className="worksImgDesc">{image.description}</span>
+              </div>
+            </div>
+          ))}
           {allPortfolioImagesIntern.slice(0, visibleImages).map((image, index) => (
             <div key={index}>
               <Link to={image.link}>
@@ -89,7 +103,7 @@ export default function Works() {
             </div>
           ))}
         </div>
-        {visibleImages < allPortfolioImagesSS.length + allPortfolioImagesUL.length + allPortfolioImagesTS + allPortfolioImagesInvestWise + allPortfolioImagesIntern && (
+        {visibleImages < allPortfolioImagesSS.length + allPortfolioImagesUL.length + allPortfolioImagesTS + allPortfolioImagesTS + allPortfolioImagesInvestWise + allPortfolioImagesIntern && (
           <button className="worksBtn" onClick={showMoreImages}>See More</button>
         )}
       </section>
