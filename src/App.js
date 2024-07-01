@@ -13,6 +13,8 @@ import ImageDetailUrbanLeaf from './components/Works/ImageDetailUrbanLeaf';
 import ImageDetailTechSavvy from './components/Works/ImageDetailTechSavvy'; 
 import ImageDetailIntern from './components/Works/ImageDetailIntern'; 
 import ImageDetailFitFusion from './components/Works/ImageDetailFitFusion';
+import ImageDetailEcoPulse from './components/Works/ImageDetailEcoPulse';
+import ImageDetailTasteBuds from './components/Works/ImageDetailTasteBuds';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
           <Route path="/urbanleaf/" element={<ImageDetailUrbanLeaf />} />
           <Route path="/techsavvy/" element={<ImageDetailTechSavvy />} />
           <Route path="/fitfusion/" element={<ImageDetailFitFusion />} />
+          <Route path="/ecopulse/" element={<ImageDetailEcoPulse />} />
+          <Route path="/tastebuds/" element={<ImageDetailTasteBuds />} />
           <Route path="/internship/" element={<ImageDetailIntern />} />
         </Routes>
       </div>
