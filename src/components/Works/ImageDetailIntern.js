@@ -4,22 +4,22 @@ import Slider from 'react-slick';
 import './ImageDetailIntern.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Portfolio15 from '../../assets/portfolio-15.png';
+import Portfolio16 from '../../assets/portfolio-16.png';
+import Portfolio17 from '../../assets/portfolio-17.png';
+import Portfolio18 from '../../assets/portfolio-18.png';
+import Portfolio19 from '../../assets/portfolio-19.png';
 import Portfolio20 from '../../assets/portfolio-20.png';
 import Portfolio21 from '../../assets/portfolio-21.png';
-import Portfolio22 from '../../assets/portfolio-22.png';
-import Portfolio23 from '../../assets/portfolio-23.png';
-import Portfolio24 from '../../assets/portfolio-24.png';
-import Portfolio25 from '../../assets/portfolio-25.png';
-import Portfolio26 from '../../assets/portfolio-26.png';
 
 const allPortfolioImages = [
-  { src: Portfolio20, description: 'UA Kathachitra Pvt. Ltd.' },
-  { src: Portfolio21, description: 'Behind the Scenes Post of movie "Josef - Born in Grace"' },
-  { src: Portfolio22, description: 'Celebrating World Tourism Day Post - Uttarakhand' },
-  { src: Portfolio23, description: 'Story behind the short film "The Salon"' },
-  { src: Portfolio24, description: 'Viewer Resonspe for movie "Josef - Born in Grace"' },
-  { src: Portfolio25, description: 'Screening Post for the short film "The Salon"' },
-  { src: Portfolio26, description: 'Celebrating National Cinema Day Post' },
+  { src: Portfolio15, description: 'UA Kathachitra Pvt. Ltd.' },
+  { src: Portfolio16, description: 'Behind the Scenes Post of movie "Josef - Born in Grace"' },
+  { src: Portfolio17, description: 'Celebrating World Tourism Day Post - Uttarakhand' },
+  { src: Portfolio18, description: 'Story behind the short film "The Salon"' },
+  { src: Portfolio19, description: 'Viewer Resonspe for movie "Josef - Born in Grace"' },
+  { src: Portfolio20, description: 'Screening Post for the short film "The Salon"' },
+  { src: Portfolio21, description: 'Celebrating National Cinema Day Post' },
 ];
 
 export default function ImageDetailIntern() {

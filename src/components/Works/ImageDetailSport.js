@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import './ImageDetailSport.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Portfolio4 from '../../assets/portfolio-4.png';
+import Portfolio5 from '../../assets/portfolio-5.png';
 import Portfolio6 from '../../assets/portfolio-6.png';
 import Portfolio7 from '../../assets/portfolio-7.png';
 import Portfolio8 from '../../assets/portfolio-8.png';
@@ -14,7 +14,7 @@ import Portfolio11 from '../../assets/portfolio-11.png';
 import Portfolio12 from '../../assets/portfolio-12.png';
 
 const allPortfolioImages = [
-  { src: Portfolio4, description: 'Cristiano Ronaldo Poster Concept' },
+  { src: Portfolio5, description: 'Cristiano Ronaldo Poster Concept' },
   { src: Portfolio6, description: 'Lionel Messi Poster Concept' },
   { src: Portfolio7, description: 'Tom Brady Poster Concept' },
   { src: Portfolio8, description: 'Tom Brady Poster Concept 2' },
