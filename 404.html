@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <script type="text/javascript">
-      // Redirect to the index.html while preserving the path
-      var pathname = window.location.pathname;
-      var newUrl = window.location.origin + '/Portfolio-Website' + pathname;
-      window.location.replace(newUrl);
+      // Check if the current path is already index.html to avoid redirect loop
+      if (!window.location.pathname.includes('index.html')) {
+        var pathname = window.location.pathname;
+        var newUrl = window.location.origin + '/Portfolio-Website' + pathname;
+        window.location.replace(newUrl);
+      }
     </script>
   </head>
   <body></body>
