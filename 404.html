@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=./index.html" />
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+      // Redirect to the index.html while preserving the path
+      var pathname = window.location.pathname;
+      var newUrl = window.location.origin + '/Portfolio-Website' + pathname;
+      window.location.replace(newUrl);
+    </script>
   </head>
   <body></body>
 </html>
