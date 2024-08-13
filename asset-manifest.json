@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.5ec0a11e.css",
-    "main.js": "/Portfolio-Website/static/js/main.ead98967.js",
+    "main.css": "/Portfolio-Website/static/css/main.1e93b009.css",
+    "main.js": "/Portfolio-Website/static/js/main.c7c51878.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio-Website/static/js/787.7da95b79.chunk.js",
+    "static/media/portfolio-47.png": "/Portfolio-Website/static/media/portfolio-47.96988a563592f5cbb2c2.png",
     "static/media/portfolio-45.png": "/Portfolio-Website/static/media/portfolio-45.cf8e20a47b0915238cd5.png",
     "static/media/portfolio-43.png": "/Portfolio-Website/static/media/portfolio-43.480bbec947f535ee81d7.png",
     "static/media/portfolio-14.png": "/Portfolio-Website/static/media/portfolio-14.d4d69b84943dc2a01b9d.png",
@@ -37,10 +38,11 @@
     "static/media/portfolio-23.jpg": "/Portfolio-Website/static/media/portfolio-23.cdd13d68b23247045818.jpg",
     "static/media/portfolio-24.jpg": "/Portfolio-Website/static/media/portfolio-24.8cd58c10b64e6295ba24.jpg",
     "static/media/portfolio-32.jpg": "/Portfolio-Website/static/media/portfolio-32.5c788757d0f7b4717d96.jpg",
-    "static/media/Soumya Sanket Soni - Resume.pdf": "/Portfolio-Website/static/media/Soumya Sanket Soni - Resume.80094f2217b97b0a85f0.pdf",
+    "static/media/Soumya Sanket Soni - Resume.pdf": "/Portfolio-Website/static/media/Soumya Sanket Soni - Resume.762f3d568bd5977f6902.pdf",
     "static/media/portfolio-22.jpg": "/Portfolio-Website/static/media/portfolio-22.2b5774ca487bc1d11f22.jpg",
     "static/media/portfolio-29.jpg": "/Portfolio-Website/static/media/portfolio-29.9cf44dc3f1d22f1e8b72.jpg",
     "static/media/portfolio-30.jpg": "/Portfolio-Website/static/media/portfolio-30.df80fc28c6403e0245c3.jpg",
+    "static/media/portfolio-46.png": "/Portfolio-Website/static/media/portfolio-46.e7b40980ae7e3abfec3a.png",
     "static/media/portfolio-42.png": "/Portfolio-Website/static/media/portfolio-42.c06217176319f19927f7.png",
     "static/media/portfolio-44.png": "/Portfolio-Website/static/media/portfolio-44.b40d716ef659e64285bc.png",
     "static/media/portfolio-38.png": "/Portfolio-Website/static/media/portfolio-38.d2f4d089873db2efb501.png",
@@ -55,12 +57,12 @@
     "static/media/slick.ttf": "/Portfolio-Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Portfolio-Website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portfolio-Website/index.html",
-    "main.5ec0a11e.css.map": "/Portfolio-Website/static/css/main.5ec0a11e.css.map",
-    "main.ead98967.js.map": "/Portfolio-Website/static/js/main.ead98967.js.map",
+    "main.1e93b009.css.map": "/Portfolio-Website/static/css/main.1e93b009.css.map",
+    "main.c7c51878.js.map": "/Portfolio-Website/static/js/main.c7c51878.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio-Website/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ec0a11e.css",
-    "static/js/main.ead98967.js"
+    "static/css/main.1e93b009.css",
+    "static/js/main.c7c51878.js"
   ]
 }
