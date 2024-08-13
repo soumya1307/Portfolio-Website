@@ -15,6 +15,7 @@ import ImageDetailIntern from './components/Works/ImageDetailIntern';
 import ImageDetailFitFusion from './components/Works/ImageDetailFitFusion';
 import ImageDetailEcoPulse from './components/Works/ImageDetailEcoPulse';
 import ImageDetailTasteBuds from './components/Works/ImageDetailTasteBuds';
+import ImageDetailGreenHavenHomes from './components/Works/ImageDetailGreenHavenHomes';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/fitfusion/" element={<ImageDetailFitFusion />} />
           <Route path="/ecopulse/" element={<ImageDetailEcoPulse />} />
           <Route path="/tastebuds/" element={<ImageDetailTasteBuds />} />
+          <Route path="/greenhavenhomes/" element={<ImageDetailGreenHavenHomes />} />
           <Route path="/internship/" element={<ImageDetailIntern />} />
         </Routes>
       </div>
