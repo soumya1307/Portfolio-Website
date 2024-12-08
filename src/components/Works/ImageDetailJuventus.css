@@ -1,0 +1,148 @@
+.imageDetailJuvContainer {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  button.backButton {
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  
+  .imageDetailJuvTitle {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .imageDetailJuvIntro {
+    font-size: 1rem;
+    color: #ffffff;
+    background: linear-gradient(235deg, #000000, #424f85, #000000);
+    border: 5px solid white;
+    border-radius: 2rem;
+    padding: 15px;
+    margin: 3px 6px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .imageDetailJuvItem {
+    text-align: center;
+  }
+  
+  .imageDetailJuvImg {
+    max-width: 100%;
+    max-height: 400px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+  
+  .imageDetailJuvDesc {
+    font-size: 1rem;
+    color: #ffffff;
+    background: linear-gradient(235deg, #000000, #424f85, #000000);
+    border: 5px solid white;
+    border-radius: 2rem;
+    padding: 15px;
+    margin: 3px 6px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Responsive Design */
+  
+  /* Large devices (desktops, 1024px and up) */
+  @media (min-width: 1024px) {
+    .imageDetailJuvTitle {
+      font-size: 3rem;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px to 1023px) */
+  @media (max-width: 1023px) {
+    button.backButton {
+      font-size: 2.5rem;
+      left: 20px;
+      top: 10px;
+    }
+  
+    .imageDetailJuvTitle {
+      font-size: 2.5rem;
+    }
+  
+    .imageDetailJuvImg {
+      margin-left: auto;
+      margin-right: auto;
+      max-height: 300px;
+    }
+  
+    .imageDetailJuvDesc {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Small devices (landscape phones, 600px to 767px) */
+  @media (max-width: 767px) {
+    button.backButton {
+      font-size: 2rem;
+      left: 15px;
+      top: 10px;
+    }
+  
+    .imageDetailJuvTitle {
+      font-size: 2rem;
+    }
+  
+    .imageDetailJuvImg {
+      margin-left: auto;
+      margin-right: auto;
+      max-height: 300px;
+    }
+  
+    .imageDetailJuvDesc {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* Extra small devices (portrait phones, less than 600px) */
+  @media (max-width: 599px) {
+    button.backButton {
+      font-size: 1.5rem;
+      left: 10px;
+      top: 10px;
+    }
+  
+    .imageDetailJuvTitle {
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+  
+    .imageDetailJuvIntro {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  
+    .imageDetailJuvImg {
+      margin-left: auto;
+      margin-right: auto;
+      max-height: 300px;
+    }
+  
+    .imageDetailJuvDesc {
+      font-size: 0.7rem;
+      padding: 10px;
+    }
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+  }
+  
