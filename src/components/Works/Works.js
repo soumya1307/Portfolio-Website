@@ -10,6 +10,17 @@ import Portfolio40 from '../../assets/portfolio-40.png';
 import Portfolio42 from '../../assets/portfolio-42.png';
 import Portfolio44 from '../../assets/portfolio-44.png';
 import Portfolio46 from '../../assets/portfolio-46.png';
+import MU from '../../assets/MU.png';
+import MC from '../../assets/MC.png';
+import AR from '../../assets/AR.png';
+import LIV from '../../assets/LIV.png';
+import CHE from '../../assets/CHE.png';
+import TOT from '../../assets/TOT.png';
+import RM from '../../assets/RM.png';
+import BAR from '../../assets/BAR.png';
+import JUV from '../../assets/JUV.png';
+import IM from '../../assets/IM.png';
+import ACM from '../../assets/ACM.png';
 
 export default function Works() {
   const initialVisibleImages = 3;
@@ -37,6 +48,39 @@ export default function Works() {
   ];
   const allPortfolioImagesGHH = [
     { src: Portfolio46, description: 'Green Haven Homes - Company Branding', link: '/greenhavenhomes' },
+  ];
+  const allPortfolioImagesMU = [
+    { src: MU, description: 'Manchester United - The Goodie Box', link: '/manchesterunited' },
+  ];
+  const allPortfolioImagesMC = [
+    { src: MC, description: 'Manchester City - The Goodie Box', link: '/manchestercity' },
+  ];
+  const allPortfolioImagesAR = [
+    { src: AR, description: 'Arsenal - The Goodie Box', link: '/arsenal' },
+  ];
+  const allPortfolioImagesLIV = [
+    { src: LIV, description: 'Liverpool - The Goodie Box', link: '/liverpool' },
+  ];
+  const allPortfolioImagesCHE = [
+    { src: CHE, description: 'Chelsea - The Goodie Box', link: '/chelsea' },
+  ];
+  const allPortfolioImagesTOT = [
+    { src: TOT, description: 'Tottenham Hotspur - The Goodie Box', link: '/tottenhamhotspur' },
+  ];
+  const allPortfolioImagesRM = [
+    { src: RM, description: 'Real Madrid - The Goodie Box', link: '/realmadrid' },
+  ];
+  const allPortfolioImagesBAR = [
+    { src: BAR, description: 'Barcelona - The Goodie Box', link: '/barcelona' },
+  ];
+  const allPortfolioImagesJUV = [
+    { src: JUV, description: 'Juventus - The Goodie Box', link: '/juventus' },
+  ];
+  const allPortfolioImagesIM = [
+    { src: IM, description: 'Inter Milan - The Goodie Box', link: '/intermilan' },
+  ];
+  const allPortfolioImagesACM = [
+    { src: ACM, description: 'AC Milan - The Goodie Box', link: '/acmilan' },
   ];
   const allPortfolioImagesIntern = [
     { src: Portfolio15, description: 'UA Kathachitra Pvt. Ltd. - Internship', link: '/internship' },
@@ -134,6 +178,116 @@ export default function Works() {
               </div>
             </div>
           ))}
+          {allPortfolioImagesMU.slice(0, visibleImages).map((image, index) => (
+            <div key={index}>
+              <Link to={image.link}>
+                <img src={image.src} alt={`Portfolio ${index + 1}`} className="worksImg" />
+              </Link>
+              <div className="worksImgDescBox">
+                <span className="worksImgDesc">{image.description}</span>
+              </div>
+            </div>
+          ))}
+          {allPortfolioImagesMC.slice(0, visibleImages).map((image, index) => (
+            <div key={index}>
+              <Link to={image.link}>
+                <img src={image.src} alt={`Portfolio ${index + 1}`} className="worksImg" />
+              </Link>
+              <div className="worksImgDescBox">
+                <span className="worksImgDesc">{image.description}</span>
+              </div>
+            </div>
+          ))}
+          {allPortfolioImagesAR.slice(0, visibleImages).map((image, index) => (
+            <div key={index}>
+              <Link to={image.link}>
+                <img src={image.src} alt={`Portfolio ${index + 1}`} className="worksImg" />
+              </Link>
+              <div className="worksImgDescBox">
+                <span className="worksImgDesc">{image.description}</span>
+              </div>
+            </div>
+          ))}
+          {allPortfolioImagesLIV.slice(0, visibleImages).map((image, index) => (
+            <div key={index}>
+              <Link to={image.link}>
+                <img src={image.src} alt={`Portfolio ${index + 1}`} className="worksImg" />
+              </Link>
+              <div className="worksImgDescBox">
+                <span className="worksImgDesc">{image.description}</span>
+              </div>
+            </div>
+          ))}
+          {allPortfolioImagesCHE.slice(0, visibleImages).map((image, index) => (
+            <div key={index}>
+              <Link to={image.link}>
+                <img src={image.src} alt={`Portfolio ${index + 1}`} className="worksImg" />
+              </Link>
+              <div className="worksImgDescBox">
+                <span className="worksImgDesc">{image.description}</span>
+              </div>
+            </div>
+          ))}
+          {allPortfolioImagesTOT.slice(0, visibleImages).map((image, index) => (
+            <div key={index}>
+              <Link to={image.link}>
+                <img src={image.src} alt={`Portfolio ${index + 1}`} className="worksImg" />
+              </Link>
+              <div className="worksImgDescBox">
+                <span className="worksImgDesc">{image.description}</span>
+              </div>
+            </div>
+          ))}
+          {allPortfolioImagesRM.slice(0, visibleImages).map((image, index) => (
+            <div key={index}>
+              <Link to={image.link}>
+                <img src={image.src} alt={`Portfolio ${index + 1}`} className="worksImg" />
+              </Link>
+              <div className="worksImgDescBox">
+                <span className="worksImgDesc">{image.description}</span>
+              </div>
+            </div>
+          ))}
+          {allPortfolioImagesBAR.slice(0, visibleImages).map((image, index) => (
+            <div key={index}>
+              <Link to={image.link}>
+                <img src={image.src} alt={`Portfolio ${index + 1}`} className="worksImg" />
+              </Link>
+              <div className="worksImgDescBox">
+                <span className="worksImgDesc">{image.description}</span>
+              </div>
+            </div>
+          ))}
+          {allPortfolioImagesJUV.slice(0, visibleImages).map((image, index) => (
+            <div key={index}>
+              <Link to={image.link}>
+                <img src={image.src} alt={`Portfolio ${index + 1}`} className="worksImg" />
+              </Link>
+              <div className="worksImgDescBox">
+                <span className="worksImgDesc">{image.description}</span>
+              </div>
+            </div>
+          ))}
+          {allPortfolioImagesIM.slice(0, visibleImages).map((image, index) => (
+            <div key={index}>
+              <Link to={image.link}>
+                <img src={image.src} alt={`Portfolio ${index + 1}`} className="worksImg" />
+              </Link>
+              <div className="worksImgDescBox">
+                <span className="worksImgDesc">{image.description}</span>
+              </div>
+            </div>
+          ))}
+          {allPortfolioImagesACM.slice(0, visibleImages).map((image, index) => (
+            <div key={index}>
+              <Link to={image.link}>
+                <img src={image.src} alt={`Portfolio ${index + 1}`} className="worksImg" />
+              </Link>
+              <div className="worksImgDescBox">
+                <span className="worksImgDesc">{image.description}</span>
+              </div>
+            </div>
+          ))}
           {allPortfolioImagesIntern.slice(0, visibleImages).map((image, index) => (
             <div key={index}>
               <Link to={image.link}>
@@ -145,7 +299,7 @@ export default function Works() {
             </div>
           ))}
         </div>
-        {visibleImages < allPortfolioImagesSS.length + allPortfolioImagesUL.length + allPortfolioImagesTS + allPortfolioImagesFF + allPortfolioImagesEP + allPortfolioImagesTB + allPortfolioImagesTB + allPortfolioImagesInvestWise + allPortfolioImagesIntern && (
+        {visibleImages < allPortfolioImagesSS.length + allPortfolioImagesUL.length + allPortfolioImagesTS + allPortfolioImagesFF + allPortfolioImagesEP + allPortfolioImagesTB + allPortfolioImagesGHH + allPortfolioImagesInvestWise + allPortfolioImagesMU + allPortfolioImagesMC + allPortfolioImagesAR + allPortfolioImagesIntern && (
           <button className="worksBtn" onClick={showMoreImages}>See More</button>
         )}
       </section>
