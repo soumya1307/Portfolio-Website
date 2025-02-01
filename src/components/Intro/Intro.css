@@ -54,11 +54,20 @@
     margin-top: 1rem;
 }
 
+.resumeButtons
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
 .btn
 {
     background: white;
     font-weight: 500;
+    display: flex;
     margin: 1rem 0;
+    width: 250px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 1rem;
@@ -71,45 +80,210 @@
 .btn:hover
 {
     background: lightskyblue;
-    color: white;
 }
 
 .btnImg
 {
     object-fit: cover;
-    margin: 0 0.5rem;
+    margin: auto;
     height: 1rem;
 }
 
-@media screen and (max-width: 840px)
+@media screen and (max-width: 1024px) 
 {
-    .bg
+    .bg 
     {
-        right: -10vw;
+        right: 2vw;
+        height: 70vh;
     }
-    .introContent
+    .introContent 
     {
-        font-size: 5vw;
+        font-size: 2.5rem;
+        height: 110vh;
     }
-    .hello
+    .hello 
     {
-        font-size: 4.5vw;
+        font-size: 1.5rem;
+    }
+    .btn 
+    {
+        width: 245px;
     }
 }
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 768px) 
 {
-    .bg
+    .bg 
     {
-        right: -20vw;
+        right: -2.5vw;
+        height: 70vh;
     }
-}
-
-@media screen and (max-width: 1030px)
-{
+    .introContent 
+    {
+        font-size: 2rem;
+        padding: 1.5rem;
+    }
+    .hello 
+    {
+        font-size: 1.3rem;
+    }
     .introPara
     {
-        text-wrap: balance;
-        font-weight: bold;
+        width: 225px;
+    }
+    .resumeButtons 
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .btn 
+    {
+        width: 225px;
+    }
+    .btnImg
+    {
+        height: 0.85rem;
+    }
+    .resumeButtons p
+    {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 426px) 
+{
+    .bg 
+    {
+        right: -5vw;
+        height: 60vh;
+    }
+    .introContent 
+    {
+        height: 110vh;
+        font-size: 1.8rem;
+    }
+    .hello 
+    {
+        font-size: 1.2rem;
+    }
+    .introText
+    {
+        font-size: 1.2rem;
+    }
+    .introPara 
+    {
+        font-size: 0.9rem;
+    }
+    .resumeButtons 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn
+    {
+        width: 175px;
+    }
+    .btnImg
+    {
+        height: 0.75rem;
+    }
+    .resumeButtons p
+    {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 400px) 
+{
+    .bg 
+    {
+        right: -5vw;
+        top: 30vh;
+        height: 50%;
+    }
+    .introContent 
+    {
+        height: 110vh;
+        font-size: 1.8rem;
+    }
+    .hello 
+    {
+        font-size: 1.2rem;
+    }
+    .introText
+    {
+        font-size: 1.2rem;
+    }
+    .introPara 
+    {
+        font-size: 0.9rem;
+    }
+    .resumeButtons 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn
+    {
+        width: 175px;
+    }
+    .btnImg
+    {
+        height: 0.75rem;
+    }
+    .resumeButtons p
+    {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 376px) 
+{
+    .bg 
+    {
+        right: -5vw;
+        height: 50vh;
+    }
+    .introContent 
+    {
+        font-size: 1.5rem;
+    }
+    .hello 
+    {
+        font-size: 1.1rem;
+    }
+    .btn 
+    {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 320px) 
+{
+    .bg 
+    {
+        right: -5vw;
+        top: 50vh;
+        height: 50%;
+    }
+    .introContent 
+    {
+        font-size: 1.2rem;
+    }
+    .hello 
+    {
+        font-size: 1rem;
+    }
+    .btn
+    {
+        width: 125px;
+    }
+    .btnImg
+    {
+        height: 0.75rem;
+    }
+    .resumeButtons p
+    {
+        font-size: 0.6rem;
     }
 }
