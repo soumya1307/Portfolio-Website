@@ -52,7 +52,6 @@
 .desktopMenuBtn:hover
 {
     background: lightskyblue;
-    color: white;
 }
 
 .desktopMenuImg
@@ -61,13 +60,6 @@
     height: 1rem;
     width: 1rem;
     margin: 1rem;
-}
-
-.active
-{
-    color: lightskyblue;
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid lightblue;
 }
 
 .navMenu
