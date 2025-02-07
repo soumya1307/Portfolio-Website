@@ -1,128 +1,135 @@
-.imageDetailTBContainer {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-  }
+.imageDetailTBContainer 
+{
+  flex: 1;
+  padding: 20px;
+  height: 105vh;
+  text-align: center;
+}
   
-  button.backButton {
-    cursor: pointer;
-    font-size: 3rem;
-  }
+button.backButton
+{
+  cursor: pointer;
+  font-size: 3rem;
+}
   
-  .imageDetailTBTitle {
+.imageDetailTBTitle 
+{
     font-size: 3rem;
     margin-bottom: 20px;
+}
+  
+.imageDetailTBIntro 
+{
+  font-size: 1rem;
+  color: #ffffff;
+  background: linear-gradient(235deg, #000000, #424f85, #000000);
+  border: 5px solid white;
+  border-radius: 2rem;
+  padding: 15px;
+  margin: 3px 6px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+  
+.imageDetailTBImage 
+{
+  text-align: center;
+}
+  
+.imageDetailTBImg 
+{
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+  
+.imageDetailTBDesc 
+{
+  font-size: 1rem;
+  color: #ffffff;
+  background: linear-gradient(235deg, #000000, #424f85, #000000);
+  border: 5px solid white;
+  border-radius: 2rem;
+  padding: 15px;
+  margin: 3px 6px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+  
+@media (min-width: 1024px) 
+{
+  .imageDetailTBTitle 
+  {
+    font-size: 3rem;
+  }
+}
+  
+@media (max-width: 1023px) 
+{
+  button.backButton 
+  {
+    font-size: 2.5rem;
+    left: 20px;
+    top: 10px;
   }
   
-  .imageDetailTBIntro {
+  .imageDetailTBTitle 
+  {
+    font-size: 2.5rem;
+  }
+  
+  .imageDetailTBIntro 
+  {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 767px) 
+{
+  button.backButton 
+  {
+    font-size: 2rem;
+    left: 15px;
+    top: 10px;
+  }
+  
+  .imageDetailTBTitle 
+  {
+    font-size: 2rem;
+  }
+  
+  .imageDetailTBIntro 
+  {
+    font-size: 0.8rem;
+  }
+}
+  
+@media (max-width: 599px) 
+{
+  button.backButton 
+  {
+    font-size: 1.5rem;
+    left: 10px;
+    top: 10px;
+  }
+  
+  .imageDetailTBTitle 
+  {
     font-size: 1rem;
-    color: #ffffff;
-    background: linear-gradient(235deg, #000000, #424f85, #000000);
-    border: 5px solid white;
-    border-radius: 2rem;
-    padding: 15px;
-    margin: 3px 6px;
-    text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 15px;
   }
   
-  .imageDetailTBImage {
-    text-align: center;
-  }
-  
-  .imageDetailTBImg {
-    max-width: 100%;
-    max-height: 100%;
-    border: 2px solid #ddd;
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-  
-  .imageDetailTBDesc {
-    font-size: 1rem;
-    color: #ffffff;
-    background: linear-gradient(235deg, #000000, #424f85, #000000);
-    border: 5px solid white;
-    border-radius: 2rem;
-    padding: 15px;
-    margin: 3px 6px;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  /* Responsive Design */
-  
-  /* Large devices (desktops, 1024px and up) */
-  @media (min-width: 1024px) {
-    .imageDetailTBTitle {
-      font-size: 3rem;
-    }
-  }
-  
-  /* Medium devices (tablets, 768px to 1023px) */
-  @media (max-width: 1023px) {
-    button.backButton {
-      font-size: 2.5rem;
-      left: 20px;
-      top: 10px;
-    }
-  
-    .imageDetailTBTitle {
-      font-size: 2.5rem;
-    }
-  
-    .imageDetailTBIntro {
-      font-size: 0.9rem;
-    }
-  }
-  
-  /* Small devices (landscape phones, 600px to 767px) */
-  @media (max-width: 767px) {
-    button.backButton {
-      font-size: 2rem;
-      left: 15px;
-      top: 10px;
-    }
-  
-    .imageDetailTBTitle {
-      font-size: 2rem;
-    }
-  
-    .imageDetailTBIntro {
-      font-size: 0.8rem;
-    }
-  }
-  
-  /* Extra small devices (portrait phones, less than 600px) */
-  @media (max-width: 599px) {
-    button.backButton {
-      font-size: 1.5rem;
-      left: 10px;
-      top: 10px;
-    }
-  
-    .imageDetailTBTitle {
-      font-size: 1rem;
-      margin-bottom: 15px;
-    }
-  
-    .imageDetailTBIntro {
-      font-size: 0.9rem;
-      padding: 10px;
-    }
-  
-    .imageDetailTBDesc {
-      font-size: 0.7rem;
-      padding: 10px;
-    }
-  }
-  
-  /* Footer styles */
-  .footer {
-    background-color: black;
-    color: white;
-    text-align: center;
+  .imageDetailTBIntro 
+  {
+    font-size: 0.9rem;
     padding: 10px;
-    width: 100%;
   }
   
+  .imageDetailTBDesc 
+  {
+    font-size: 0.7rem;
+    padding: 10px;
+  }
+}

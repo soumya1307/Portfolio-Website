@@ -84,9 +84,6 @@ export default function ImageDetailBar() {
           ))}
         </Slider>
       </div>
-      <footer className="footer">
-        Copyright &#169; 2024 Soumya Soni. All Rights Reserved
-      </footer>
     </div>
   );
 }

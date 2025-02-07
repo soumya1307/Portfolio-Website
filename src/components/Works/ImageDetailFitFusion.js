@@ -18,9 +18,6 @@ export default function ImageDetailFitFusion() {
           <img src={Portfolio41} alt="Fit Fusion" className="imageDetailFFImg" />
         </div>
       </div>
-      <footer className="footer">
-        Copyright &#169; 2024 Soumya Soni. All Rights Reserved
-      </footer>
     </div>
   );
 }

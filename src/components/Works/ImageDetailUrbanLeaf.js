@@ -18,9 +18,6 @@ export default function ImageDetailUrbanLeaf() {
           <img src={Portfolio14} alt="Urban Leaf" className="imageDetailULImg" />
         </div>
       </div>
-      <footer className="footer">
-        Copyright &#169; 2024 Soumya Soni. All Rights Reserved
-      </footer>
     </div>
   );
 }

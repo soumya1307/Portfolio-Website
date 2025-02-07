@@ -18,9 +18,6 @@ export default function ImageDetailEcoPulse() {
           <img src={Portfolio43} alt="Eco Pulse" className="imageDetailEPImg" />
         </div>
       </div>
-      <footer className="footer">
-        Copyright &#169; 2024 Soumya Soni. All Rights Reserved
-      </footer>
     </div>
   );
 }

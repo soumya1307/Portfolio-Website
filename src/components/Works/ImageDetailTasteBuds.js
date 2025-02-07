@@ -18,9 +18,6 @@ export default function ImageDetailTasteBuds() {
           <img src={Portfolio45} alt="Taste Buds" className="imageDetailTBImg" />
         </div>
       </div>
-      <footer className="footer">
-        Copyright &#169; 2024 Soumya Soni. All Rights Reserved
-      </footer>
     </div>
   );
 }
