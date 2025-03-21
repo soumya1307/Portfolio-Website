@@ -28,11 +28,6 @@ import ImageDetailJuventus from './components/Works/ImageDetailJuventus';
 import ImageDetailInterMilan from './components/Works/ImageDetailInterMilan';
 import ImageDetailACMilan from './components/Works/ImageDetailACMilan';
 
-
-
-
-
-
 function App() {
   return (
     <Router basename='/Portfolio-Website'>

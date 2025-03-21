@@ -42,8 +42,8 @@ button.backButton
   max-height: 400px;
   border: 2px solid #ddd;
   border-radius: 4px;
+  margin: auto;
   margin-bottom: 10px;
-  margin-left: 50px;
 }
   
 .imageDetailSportDesc 
