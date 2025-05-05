@@ -1,157 +1,154 @@
-.imageDetailBarContainer 
-{
+.imageDetailBarContainer {
   flex: 1;
   padding: 20px;
-  height: 105vh;
+  min-height: 100%;
   text-align: center;
-}
-  
-button.backButton 
-{
-  cursor: pointer;
-  font-size: 3rem;
-}
-  
-.imageDetailBarTitle
-{
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
-  
-.imageDetailBarIntro
-{
-  font-size: 1rem;
-  color: #ffffff;
-  background: linear-gradient(235deg, #000000, #424f85, #000000);
-  border: 5px solid white;
-  border-radius: 2rem;
-  padding: 15px;
-  margin: 3px 6px;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-  
-.imageDetailBarItem 
-{
-  text-align: center;
-}
-  
-.imageDetailBarImg 
-{
-  max-width: 100%;
-  max-height: 400px;
-  border: 2px solid #ddd;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-}
-  
-.imageDetailBarDesc 
-{
-  font-size: 1rem;
-  color: #ffffff;
-  background: linear-gradient(235deg, #000000, #424f85, #000000);
-  border: 5px solid white;
-  border-radius: 2rem;
-  padding: 15px;
-  margin: 3px 6px;
-  text-align: center;
-  margin-bottom: 2rem;
+  position: relative;
 }
 
-@media (min-width: 1024px) 
-{
-  .imageDetailBarTitle 
-  {
-    font-size: 3rem;
-  }
+button.backButton {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 3rem;
+  position: absolute;
+  top: 10px;
+  left: 30px;
 }
-  
-@media (max-width: 1023px) 
-{
-  button.backButton 
-  {
+
+.imageDetailBarTitle {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.imageDetailBarIntro,
+.imageDetailBarDesc {
+  font-size: 1rem;
+  color: #ffffff;
+  background: linear-gradient(235deg, #000000, #424f85, #000000);
+  border: 5px solid white;
+  border-radius: 2rem;
+  padding: 15px;
+  margin: 0 auto 2rem;
+  max-width: 90%;
+  text-align: center;
+}
+
+.imageDetailBarItem {
+  text-align: center;
+  padding: 10px;
+}
+
+.imageDetailBarImg {
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+/* --- Responsive Breakpoints --- */
+
+@media (max-width: 1023px) {
+  button.backButton {
     font-size: 2.5rem;
     left: 20px;
-    top: 10px;
   }
-  
-  .imageDetailBarTitle 
-  {
+
+  .imageDetailBarTitle {
     font-size: 2.5rem;
   }
-  
-  .imageDetailBarImg
-  {
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
+
+  .imageDetailBarImg {
+    width: 100%;
   }
-  
-  .imageDetailBarDesc 
-  {
-    font-size: 0.9rem;
+
+  .imageDetailBarIntro,
+  .imageDetailBarDesc {
+    font-size: 0.95rem;
+    padding: 12px;
   }
 }
-  
-@media (max-width: 767px) 
-{
-  button.backButton 
-  {
+
+@media (max-width: 767px) {
+  button.backButton {
     font-size: 2rem;
     left: 15px;
-    top: 10px;
   }
-  
-  .imageDetailBarTitle 
-  {
+
+  .imageDetailBarTitle {
     font-size: 2rem;
   }
-  
-  .imageDetailBarImg 
-  {
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
+
+  .imageDetailBarImg {
+    max-height: 280px;
   }
-  
-  .imageDetailBarDesc
-  {
-    font-size: 0.8rem;
+
+  .imageDetailBarIntro,
+  .imageDetailBarDesc {
+    font-size: 0.85rem;
+    padding: 10px;
   }
 }
-  
-@media (max-width: 599px) 
-{
-  button.backButton 
-  {
+
+@media (max-width: 599px) {
+  button.backButton {
     font-size: 1.5rem;
     left: 10px;
-    top: 10px;
   }
-  
-  .imageDetailBarTitle 
-  {
-    font-size: 1rem;
-    margin-bottom: 15px;
+
+  .imageDetailBarTitle {
+    font-size: 1.3rem;
   }
-  
-  .imageDetailBarIntro 
-  {
-    font-size: 0.9rem;
-    padding: 10px;
+
+  .imageDetailBarImg {
+    max-width: 250px;
   }
-  
-  .imageDetailBarImg 
-  {
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
+
+  .imageDetailBarIntro,
+  .imageDetailBarDesc {
+    font-size: 0.75rem;
+    padding: 8px;
   }
-  
-  .imageDetailBarDesc 
-  {
+}
+
+@media (max-width: 375px) {
+  .imageDetailBarTitle {
+    font-size: 1.1rem;
+  }
+
+  .imageDetailBarImg {
+    width: 100%;
+  }
+
+  .imageDetailBarIntro,
+  .imageDetailBarDesc {
     font-size: 0.7rem;
-    padding: 10px;
+    padding: 6px;
+  }
+
+  button.backButton {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .imageDetailBarTitle {
+    font-size: 1rem;
+  }
+
+  .imageDetailBarImg {
+    width: 100%;
+  }
+
+  .imageDetailBarIntro,
+  .imageDetailBarDesc {
+    font-size: 0.65rem;
+  }
+
+  button.backButton {
+    font-size: 1rem;
   }
 }

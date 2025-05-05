@@ -1,163 +1,154 @@
-.imageDetailInvestWiseContainer 
-{
+.imageDetailInvestWiseContainer {
   padding: 20px;
-  height: 120vh;
+  min-height: 100%;
   text-align: center;
+  position: relative;
 }
 
-.backButton 
-{
+.backButton {
   background: none;
   border: none;
   color: white;
   cursor: pointer;
   font-size: 3rem;
-  margin-bottom: 20px;
   position: absolute;
   left: 30px;
   top: 10px;
 }
 
-.imageDetailInvestWiseTitle 
-{
+.imageDetailInvestWiseTitle {
   font-size: 3rem;
   margin-bottom: 20px;
+  color: white;
 }
 
-.imageDetailInvestWiseIntro 
-{
+.imageDetailInvestWiseIntro,
+.imageDetailInvestWiseDesc {
   font-size: 1rem;
   color: #ffffff;
   background: linear-gradient(235deg, #000000, #424f85, #000000);
   border: 5px solid white;
   border-radius: 2rem;
   padding: 15px;
-  margin: 3px 6px;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.imageDetailInvestWiseItem 
-{
+  margin: 0 auto 2rem;
+  max-width: 75%;
   text-align: center;
 }
 
-.imageDetailInvestWiseImg 
-{
-  max-width: 100%;
+.imageDetailInvestWiseItem {
+  text-align: center;
+}
+
+.imageDetailInvestWiseImg {
+  width: 100%;
+  max-width: fit-content;
   max-height: 500px;
   border: 2px solid #ddd;
   border-radius: 4px;
-  margin-bottom: 10px;
-  margin-left: 140px;
+  margin: 0 auto 10px;
+  display: block;
 }
 
-.imageDetailInvestWiseDesc 
-{
-  font-size: 1rem;
-  color: #ffffff;
-  background: linear-gradient(235deg, #000000, #424f85, #000000);
-  border: 5px solid white;
-  border-radius: 2rem;
-  padding: 15px;
-  margin: 3px 25px;
-  text-align: center;
-  margin-bottom: 2rem;
-}
+/* --- Responsive Breakpoints --- */
 
-@media (min-width: 1024px) 
-{
-  .imageDetailInvestWiseTitle 
-  {
-    font-size: 3rem;
-  }
-}
-
-@media (max-width: 1023px) 
-{
-  button.backButton 
-  {
+@media (max-width: 1023px) {
+  .backButton {
     font-size: 2.5rem;
     left: 20px;
-    top: 10px;
   }
 
-  .imageDetailInvestWiseTitle 
-  {
+  .imageDetailInvestWiseTitle {
     font-size: 2.5rem;
   }
 
-  .imageDetailInvestWiseImg 
-  {
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
+  .imageDetailInvestWiseImg {
+    max-height: 400px;
   }
 
-  .imageDetailInvestWiseDesc 
-  {
-    font-size: 0.9rem;
+  .imageDetailInvestWiseIntro,
+  .imageDetailInvestWiseDesc {
+    font-size: 0.95rem;
+    padding: 12px;
   }
 }
 
-@media (max-width: 767px) 
-{
-  button.backButton 
-  {
+@media (max-width: 767px) {
+  .backButton {
     font-size: 2rem;
     left: 15px;
-    top: 10px;
   }
 
-  .imageDetailInvestWiseTitle 
-  {
+  .imageDetailInvestWiseTitle {
     font-size: 2rem;
   }
 
-  .imageDetailInvestWiseImg 
-  {
-    margin-left: auto;
-    margin-right: auto;
+  .imageDetailInvestWiseImg {
     max-height: 300px;
   }
 
-  .imageDetailInvestWiseDesc 
-  {
-    font-size: 0.8rem;
+  .imageDetailInvestWiseIntro,
+  .imageDetailInvestWiseDesc {
+    font-size: 0.85rem;
+    padding: 10px;
   }
 }
 
-@media (max-width: 599px) 
-{
-  button.backButton 
-  {
+@media (max-width: 599px) {
+  .backButton {
     font-size: 1.5rem;
     left: 10px;
-    top: 10px;
   }
 
-  .imageDetailInvestWiseTitle 
-  {
-    font-size: 1rem;
-    margin-bottom: 15px;
+  .imageDetailInvestWiseTitle {
+    font-size: 1.5rem;
   }
 
-  .imageDetailInvestWiseIntro 
-  {
-    font-size: 0.9rem;
-    padding: 10px;
+  .imageDetailInvestWiseImg {
+    max-height: 250px;
   }
 
-  .imageDetailInvestWiseImg 
-  {
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
+  .imageDetailInvestWiseIntro,
+  .imageDetailInvestWiseDesc {
+    font-size: 0.75rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 375px) {
+  .imageDetailInvestWiseTitle {
+    font-size: 1.3rem;
   }
 
-  .imageDetailInvestWiseDesc 
-  {
+  .imageDetailInvestWiseImg {
+    max-height: 220px;
+  }
+
+  .imageDetailInvestWiseIntro,
+  .imageDetailInvestWiseDesc {
     font-size: 0.7rem;
-    padding: 10px;
+    padding: 6px;
+  }
+
+  .backButton {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .imageDetailInvestWiseTitle {
+    font-size: 1.1rem;
+  }
+
+  .imageDetailInvestWiseImg {
+    max-height: 200px;
+  }
+
+  .imageDetailInvestWiseIntro,
+  .imageDetailInvestWiseDesc {
+    font-size: 0.65rem;
+  }
+
+  .backButton {
+    font-size: 1rem;
   }
 }

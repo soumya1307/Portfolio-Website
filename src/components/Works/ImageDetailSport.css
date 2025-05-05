@@ -1,43 +1,43 @@
-.imageDetailSportContainer 
-{
+.imageDetailSportContainer {
   flex: 1;
   padding: 20px;
-  height: 105vh;
+  height: 100%;
   text-align: center;
 }
-  
-button.backButton 
-{
+
+button.backButton {
   cursor: pointer;
   font-size: 3rem;
+  background: none;
+  border: none;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
-  
-.imageDetailSportTitle
-{
+
+.imageDetailSportTitle {
   font-size: 3rem;
   margin-bottom: 20px;
+  color: white;
 }
-  
-.imageDetailSportIntro
-{
+
+.imageDetailSportIntro {
   font-size: 1rem;
-  color: #ffffff;
+  color: white;
   background: linear-gradient(235deg, #000000, #424f85, #000000);
   border: 5px solid white;
   border-radius: 2rem;
   padding: 15px;
-  margin: 3px 6px;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-  
-.imageDetailSportItem 
-{
+  margin: 3px 6px 2rem;
   text-align: center;
 }
-  
-.imageDetailSportImg 
-{
+
+.imageDetailSportItem {
+  text-align: center;
+}
+
+.imageDetailSportImg {
   max-width: 100%;
   max-height: 400px;
   border: 2px solid #ddd;
@@ -45,113 +45,97 @@ button.backButton
   margin: auto;
   margin-bottom: 10px;
 }
-  
-.imageDetailSportDesc 
-{
+
+.imageDetailSportDesc {
   font-size: 1rem;
-  color: #ffffff;
+  color: white;
   background: linear-gradient(235deg, #000000, #424f85, #000000);
   border: 5px solid white;
   border-radius: 2rem;
   padding: 15px;
-  margin: 3px 6px;
+  margin: 3px 6px 2rem;
   text-align: center;
-  margin-bottom: 2rem;
 }
 
-@media (min-width: 1024px) 
-{
-  .imageDetailSportTitle 
-  {
-    font-size: 3rem;
-  }
-}
-  
-@media (max-width: 1023px) 
-{
-  button.backButton 
-  {
-    font-size: 2.5rem;
-    left: 20px;
-    top: 10px;
-  }
-  
-  .imageDetailSportTitle 
-  {
+/* --- Responsive Breakpoints --- */
+
+@media (max-width: 1023px) {
+  .imageDetailSportTitle {
     font-size: 2.5rem;
   }
-  
-  .imageDetailSportImg
-  {
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
-  }
-  
-  .imageDetailSportDesc 
-  {
-    font-size: 0.9rem;
-  }
-}
-  
-@media (max-width: 767px) 
-{
-  button.backButton 
-  {
-    font-size: 2rem;
+  button.backButton {
+    font-size: 2.5rem;
+    top: 15px;
     left: 15px;
-    top: 10px;
   }
-  
-  .imageDetailSportTitle 
-  {
-    font-size: 2rem;
-  }
-  
-  .imageDetailSportImg 
-  {
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
-  }
-  
-  .imageDetailSportDesc
-  {
-    font-size: 0.8rem;
+  .imageDetailSportImg {
+    max-height: 350px;
   }
 }
-  
-@media (max-width: 599px) 
-{
-  button.backButton 
-  {
-    font-size: 1.5rem;
-    left: 10px;
-    top: 10px;
+
+@media (max-width: 768px) {
+  .imageDetailSportTitle {
+    font-size: 2rem;
   }
-  
-  .imageDetailSportTitle 
-  {
-    font-size: 1rem;
-    margin-bottom: 15px;
+  .imageDetailSportIntro {
+    font-size: 0.95rem;
+    padding: 12px;
   }
-  
-  .imageDetailSportIntro 
-  {
-    font-size: 0.9rem;
-    padding: 10px;
+  .imageDetailSportDesc {
+    font-size: 0.85rem;
+    padding: 12px;
   }
-  
-  .imageDetailSportImg 
-  {
-    margin-left: auto;
-    margin-right: auto;
+  button.backButton {
+    font-size: 2rem;
+  }
+  .imageDetailSportImg {
     max-height: 300px;
   }
-  
-  .imageDetailSportDesc 
-  {
-    font-size: 0.7rem;
+}
+
+@media (max-width: 425px) {
+  .imageDetailSportTitle {
+    font-size: 1.5rem;
+  }
+  .imageDetailSportIntro,
+  .imageDetailSportDesc {
+    font-size: 0.8rem;
     padding: 10px;
+  }
+  button.backButton {
+    font-size: 1.5rem;
+  }
+  .imageDetailSportImg {
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 375px) {
+  .imageDetailSportTitle {
+    font-size: 1.3rem;
+  }
+  .imageDetailSportIntro,
+  .imageDetailSportDesc {
+    font-size: 0.75rem;
+  }
+  .imageDetailSportImg {
+    max-height: 220px;
+  }
+}
+
+@media (max-width: 320px) {
+  .imageDetailSportTitle {
+    font-size: 1.1rem;
+  }
+  .imageDetailSportIntro,
+  .imageDetailSportDesc {
+    font-size: 0.7rem;
+    padding: 8px;
+  }
+  .imageDetailSportImg {
+    max-height: 200px;
+  }
+  button.backButton {
+    font-size: 1.3rem;
   }
 }

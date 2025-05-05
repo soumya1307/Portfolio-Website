@@ -1,157 +1,154 @@
-.imageDetailInternContainer 
-{
+.imageDetailInternContainer {
   flex: 1;
   padding: 20px;
-  height: 108vh;
+  min-height: 100%;
   text-align: center;
+  position: relative;
 }
 
-button.backButton
-{
+button.backButton {
+  background: none;
+  border: none;
+  color: white;
   cursor: pointer;
   font-size: 3rem;
+  position: absolute;
+  top: 10px;
+  left: 30px;
 }
 
-.imageDetailInternTitle 
-{
+.imageDetailInternTitle {
   font-size: 3rem;
   margin-bottom: 20px;
+  color: white;
 }
 
-.imageDetailInternIntro 
-{
+.imageDetailInternIntro,
+.imageDetailInternDesc {
   font-size: 1rem;
   color: #ffffff;
   background: linear-gradient(235deg, #000000, #424f85, #000000);
   border: 5px solid white;
   border-radius: 2rem;
   padding: 15px;
-  margin: 3px 6px;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.imageDetailInternItem 
-{
+  margin: 0 auto 2rem;
+  max-width: 90%;
   text-align: center;
 }
 
-.imageDetailInternImg 
-{
-  max-width: 100%;
-  max-height: 400px;
+.imageDetailInternItem {
+  text-align: center;
+  padding: 10px;
+}
+
+.imageDetailInternImg {
+  width: 100%;
   border: 2px solid #ddd;
   border-radius: 4px;
-  margin-bottom: 10px;
-  margin-left: 50px;
+  margin: 0 auto 10px;
+  display: block;
 }
 
-.imageDetailInternDesc 
-{
-  font-size: 1rem;
-  color: #ffffff;
-  background: linear-gradient(235deg, #000000, #424f85, #000000);
-  border: 5px solid white;
-  border-radius: 2rem;
-  padding: 15px;
-  margin: 3px 15px;
-  text-align: center;
-  margin-bottom: 2rem;
-}
+/* --- Responsive Breakpoints --- */
 
-@media (min-width: 1024px) 
-{
-  .imageDetailInternTitle 
-  {
-    font-size: 3rem;
-  }
-}
-
-@media (max-width: 1023px) 
-{
-  button.backButton 
-  {
+@media (max-width: 1023px) {
+  button.backButton {
     font-size: 2.5rem;
     left: 20px;
-    top: 10px;
   }
 
-  .imageDetailInternTitle 
-  {
+  .imageDetailInternTitle {
     font-size: 2.5rem;
   }
 
-  .imageDetailInternImg 
-  {
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
+  .imageDetailInternImg {
+    width: 100%;
   }
 
-  .imageDetailInternDesc 
-  {
-    font-size: 0.9rem;
+  .imageDetailInternIntro,
+  .imageDetailInternDesc {
+    font-size: 0.95rem;
+    padding: 12px;
   }
 }
 
-@media (max-width: 767px) 
-{
-  button.backButton 
-  {
+@media (max-width: 767px) {
+  button.backButton {
     font-size: 2rem;
     left: 15px;
-    top: 10px;
   }
 
-  .imageDetailInternTitle 
-  {
+  .imageDetailInternTitle {
     font-size: 2rem;
   }
 
-  .imageDetailInternImg 
-  {
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
+  .imageDetailInternImg {
+    max-height: 280px;
   }
 
-  .imageDetailInternDesc 
-  {
-    font-size: 0.8rem;
+  .imageDetailInternIntro,
+  .imageDetailInternDesc {
+    font-size: 0.85rem;
+    padding: 10px;
   }
 }
 
-@media (max-width: 599px) 
-{
-  button.backButton 
-  {
+@media (max-width: 599px) {
+  button.backButton {
     font-size: 1.5rem;
     left: 10px;
-    top: 10px;
   }
 
-  .imageDetailInternTitle
-  {
-    font-size: 1rem;
-    margin-bottom: 15px;
+  .imageDetailInternTitle {
+    font-size: 1.3rem;
   }
 
-  .imageDetailInternIntro 
-  {
-    font-size: 0.9rem;
-    padding: 10px;
+  .imageDetailInternImg {
+    max-width: 250px;
   }
 
-  .imageDetailInternImg 
-  {
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 300px;
+  .imageDetailInternIntro,
+  .imageDetailInternDesc {
+    font-size: 0.75rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 375px) {
+  .imageDetailInternTitle {
+    font-size: 1.1rem;
   }
 
-  .imageDetailInternDesc 
-  {
+  .imageDetailInternImg {
+    width: 100%;
+  }
+
+  .imageDetailInternIntro,
+  .imageDetailInternDesc {
     font-size: 0.7rem;
-    padding: 10px;
+    padding: 6px;
+  }
+
+  button.backButton {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .imageDetailInternTitle {
+    font-size: 1rem;
+  }
+
+  .imageDetailInternImg {
+    width: 100%;
+  }
+
+  .imageDetailInternIntro,
+  .imageDetailInternDesc {
+    font-size: 0.65rem;
+  }
+
+  button.backButton {
+    font-size: 1rem;
   }
 }
